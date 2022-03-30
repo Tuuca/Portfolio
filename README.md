@@ -11,7 +11,7 @@
   <li> <b> templates -> </b> Pasta contendo todos os arquivos .html do portfolio
   <li> <b> static -> </b> Pasta contendo o .css
     <ul>
-      <li> <b> image -> </b> Pasta contendo todas as imagens do portfolio
+      <li> <b> image -> </b> Pasta contendo todas as imagens do portfolio.
     </ul>
 </ul>
 
