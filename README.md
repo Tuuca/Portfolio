@@ -1,11 +1,17 @@
-<h1 align="center"> Portfolio </h1>
+<h1 align="center"> <b> Portfolio </b> </h1>
 
-- Nome: Gabriel da Cunha de Macedo
-- Curso: Desenvolvimento de Softwares Multiplataformas
-
-<h1 align="center"> Pastas </h1>
-- doc -> Pasta contendo documentos, sendo ele exclusivamente o arquivo .pdf do Wireframe do portfolio para dispositivos Mobile 
-- templates -> Pasta contendo todos os arquivos .html do portfolio
-- static -> Pasta contendo o .css
-  - image -> Pasta contendo todas as imagens do portfolio
+<ul>
+  <li> <b> Nome: </b> Gabriel da Cunha de Macedo
+  <li> <b> Curso: </b> Desenvolvimento de Softwares Multiplataformas
+</ul>
+  
+<h1 align="center"> <b> Pastas </b> </h1>
+<ul>
+  <li> <b> doc -> </b> Pasta contendo documentos, sendo ele exclusivamente o arquivo .pdf do Wireframe do portfolio para dispositivos Mobile
+  <li> <b> templates -> </b> Pasta contendo todos os arquivos .html do portfolio
+  <li> <b> static -> </b> Pasta contendo o .css
+    <ul>
+      <li> <b> image -> </b> Pasta contendo todas as imagens do portfolio
+    </ul>
+</ul>
 
