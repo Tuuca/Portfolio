@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,46 @@
     <link rel="stylesheet" href="../static/style.css">
     <title>Sobre mim</title>
 </head>
+
 <body>
-    <div class="sidenav">
-        <img src="../static/image/foto2.jpeg" alt="teste" class="foto2">
-        <a href="home">Home</a>
-        <a href="sobre" class="selecionado">Sobre mim</a>
-        <a href="projetos">Projetos</a>
-        <a href="contato">Contato</a>
-      </div>
-
-    <div class="textolado1">
-        <img src="../static/image/icone-sobre.png" alt="bagulho" class="iconesobre">
-        <p class="textotitulo">Sobre mim</p>
-        <p class="texto">ㅤㅤMe chamo Gabriel da Cunha, sou apaixonado pela área de Tecnologia, principalmente pela criação de software e afins. Conheça um pouco mais de minha formação e conhecimentos
-        </p>
+    <div class="sidebar">
+        <a href="/home">
+            <img src="../static/image/logo.png" alt="" class="iconezinho">
+        </a>
+        <a href="/home">Home</a>
+        <a href="/sobre" class="active">Sobre mim</a>
+        <a href="/projetos">Projetos</a>
+        <a href="/contato">Contato</a>
     </div>
+    <div class="content">
+        <div class="bloco">
+            <div>
+                <img src="../static/image/icone-sobre.png" alt="bagulho" class="icone">
+            </div>
+            <div class="textoo">
+                <p class="textotitulo">Sobre mim</p>
+                <p class="texto">ㅤㅤMe chamo Gabriel da Cunha, sou apaixonado pela área de Tecnologia, principalmente
+                    pela
+                    criação de software e afins. Conheça um pouco mais de minha formação e conhecimentos
+                </p>
+            </div>
+        </div>
 
-    <div class="textolado2">
-        <img src="../static/image/icone-formacao.png" alt="bagulho" class="iconesobre2">
-        <p class="textotitulo">Formação acadêmica</p>
-        <ul class="texto">
-            <li>Técnico em Desenvolvimento de sistemas</li>
-            <li>Cursando atualmente Desenvolvimento de software multiplataformaㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ 
-            </li>
-        </ul>
-        </p>
+        <div class="bloco">
+            <div>
+                <img src="../static/image/icone-formacao.png" alt="bagulho" class="icone">
+            </div>
+            <div class="textoo">
+                <p class="textotitulo">Formação acadêmica</p>
+                <ul class="texto">
+                    <li>Técnico em Desenvolvimento de sistemas</li>
+                    <li>Cursando atualmente Desenvolvimento de software multiplataforma
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
