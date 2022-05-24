@@ -17,4 +17,21 @@
       </ul>
     </ul>
 </ul>
+<h1 align="center"> <b> Executando local </b> </h1>
+Depois de baixar o [Python](https://www.pyth.org/download/) e clonar o projeto:
+
+``` powershell
+# Acesse a pasta do projeto por meio do terminal
+cd src
+
+# Instale as dependências
+pip install -r requirements.txt
+      
+# Configure a variável de ambiente FLASK_APP
+set FLASK_APP=app.py
+
+# Executar a aplicação
+flask run
+
+# O site estará disponível através do link: http://localhost:5000/ ou http://127.0.0.1:5000/
 
